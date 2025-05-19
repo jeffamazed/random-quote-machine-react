@@ -1,12 +1,60 @@
-# React + Vite
+# 🎲 Random Quote Machine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, animated, and accessible **Random Quote Generator** built with **React + Vite**. Quotes fade in and out with style, change colors dynamically, and can be shared directly to Twitter or Tumblr. Built with love by [jeffamazed](https://github.com/jeffamazed).
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View it live on GitHub Pages](https://jeffamazed.github.io/random-quote-machine-react/)
 
-## Expanding the ESLint configuration
+## 📸 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎨 Dynamic color theming
+- 🔁 Smooth fade-in/fade-out quote transitions
+- 🔗 Social sharing to Twitter & Tumblr
+- ♿ Accessible with ARIA labels, screen reader support, and keyboard focus
+- ⚡ Built using [Vite](https://vitejs.dev/) for ultra-fast development
+
+## 🛠️ Tech Stack
+
+- React (Hooks)
+- Vite
+- JavaScript (ES6+)
+- HTML5 + CSS3
+- Font Awesome (for icons)
+
+## 🧾 How to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the dev server
+npm run dev
+```
+
+## 📁 File Structure
+
+```
+├── public/
+├── src/
+│   ├── js/
+│   │   ├── quote-list.js
+│   │   └── utils.js
+│   └── RandomQuoteMachine.jsx
+├── index.html
+├── vite.config.js
+├── package.json
+```
+
+## 🙌 Credits
+
+- Icons: [Font Awesome](https://fontawesome.com/)
+- Created by [jeffamazed](https://github.com/jeffamazed)
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
