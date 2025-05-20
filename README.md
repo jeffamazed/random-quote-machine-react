@@ -26,8 +26,8 @@ A sleek, animated, and accessible **Random Quote Generator** built with **React 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/jeffamazed/random-quote-machine-react.git
+cd random-quote-machine-react
 
 # 2. Install dependencies
 npm install
